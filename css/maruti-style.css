@@ -188,9 +188,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	top: -7px;
 }
 
-.container-fluid .row-fluid:first-child {
+/* .container-fluid .row-fluid:first-child {
 	margin-top: 20px;
-}
+} */
 /* Breadcrumb */
 #breadcrumb {
 	background-color: #fff;
@@ -552,8 +552,8 @@ ul.stat-boxes2 li:hover{  background:#f6f6f6}
     border-left: 1px solid #CDCDCD;
     border-right: 1px solid #CDCDCD;
     clear: both;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 1px;
+    margin-bottom: 1pxz;
     position: relative;
 }
 .widget-box.widget-calendar, .widget-box.widget-chat {
@@ -637,7 +637,7 @@ ul.stat-boxes2 li:hover{  background:#f6f6f6}
 }
 
 .widget-content {
-	padding: 12px 15px;
+	padding: 5px 0px;
     border-bottom: 1px solid #cdcdcd;
 }
 .widget-box.widget-plain .widget-content {
@@ -1212,20 +1212,21 @@ form {
 	margin-bottom: 0;
 }
 .form-horizontal .control-group {
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #eeeeee;
+	/* border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #eeeeee; */
 	margin-bottom: 0;
+	margin: 1px;
 }
 .form-horizontal .control-group:last-child {
 	border-bottom: 0;
 }
 .form-horizontal .control-label {
-	padding-top: 15px;
-	width: 180px;
+	/* padding-top: 15px; */
+	/* width: 180px; */
 }
 .form-horizontal .controls {
-	margin-left: 200px;
-	padding: 10px 0;
+	margin-left: 171px;
+	/* padding: 10px 0; */
 }
 .form-horizontal input[type=text], .form-horizontal input[type=password], .form-horizontal textarea {
 	
@@ -1427,12 +1428,22 @@ form {
 	}
 
 }
+.temp{
+	float: left;
+    width: 32px;
+    /* padding-left: 2px; */
+    margin-right: 12px;
+}
+.container-fluid {
+	padding-left: 20px; 
+	padding-right: 20px;
+}
 @media (max-width: 767px) {
 	body {
 		padding: 0 !important;
 	}
 	.container-fluid {
-		padding-left: 20px;
+		padding-left: 20px; 
 		padding-right: 20px;
 	}
 	#search { display: none; }
