@@ -11,7 +11,13 @@ body {
 a:hover {
 	text-decoration: none;
 }
-
+.table th, .table td {
+    padding: 2px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 0px !important;
+}
 /*bootstrap-overwrite*/
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .label, .dropdown-menu, .btn, .well, .progress, .table-bordered, .btn-group > .btn:first-child, .btn-group > .btn:last-child, .btn-group > .btn:last-child, .btn-group > .dropdown-toggle, .alert{ border-radius:0px;}
 .btn, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{ box-shadow:none;}
@@ -1430,9 +1436,9 @@ form {
 }
 .temp{
 	float: left;
-    width: 32px;
-    /* padding-left: 2px; */
-    margin-right: 12px;
+	width: 32px;
+	/* padding-left: 2px; */
+	margin-right: 8px;
 }
 .container-fluid {
 	padding-left: 20px; 
