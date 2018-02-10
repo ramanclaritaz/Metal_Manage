@@ -194,10 +194,7 @@
             <form class="form-horizontal" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
                 <div class="span12">
                     <div class="row-fluid">
-                        <table class="table table-bordered table-striped" style="
-              margin: 4px 0px 0px 79px;
-          ">
-
+                        <table class="table table-bordered table-striped" style="margin: 4px 0px 0px 79px;">
                             <tbody>
                                 <tr>
                                     <td>
@@ -486,7 +483,7 @@
 
                                 </tr>
                                 <tr>
-                                    <td rowspan="6">
+                                    <td>
                                         <div class="control-group">
                                             <label class="control-label">Major Remarks</label>
                                             <div class="controls">
@@ -494,7 +491,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td rowspan="6">
+                                    <td>
                                         <div class="control-group">
                                             <label class="control-label">Minor Remarks</label>
                                             <div class="controls">
@@ -517,6 +514,25 @@
                                 <tr>
                                     <td>
                                         <div class="control-group">
+                                            <label class="control-label">TC No.</label>
+                                            <div class="controls">
+                                                <input type="text" id="name" name="name">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="control-group">
+                                            <label class="control-label">TC Date</label>
+                                            <div class="controls">
+                                                <input type="date" id="tcDate">
+
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <div class="control-group">
                                             <label class="control-label">Chisel Test</label>
                                             <div class="controls">
                                                 <select>
@@ -532,6 +548,25 @@
                                 <tr>
                                     <td>
                                         <div class="control-group">
+                                            <label class="control-label">Id</label>
+                                            <div class="controls">
+                                                <input type="text">
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="control-group">
+                                            <label class="control-label">Pow. sprd</label>
+                                            <div class="controls">
+                                                <input type="text">
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!-- <td colspan="2" rowspan="4"></td> -->
+                                    <td>
+                                        <div class="control-group">
                                             <label class="control-label">Fracture Test</label>
                                             <div class="controls">
                                                 <select>
@@ -545,6 +580,18 @@
 
                                 </tr>
                                 <tr>
+                                    <td colspan="2">
+                                        <div class="control-group">
+                                            <label class="control-label">Dimension</label>
+                                            <div class="controls">
+                                                <span style="width: 180px;padding: 3px;">
+                                                    <input type="radio" value="0" checked="checked" style="margin: 8px;"> Inch</span>
+
+                                                <span style="width: 180px;padding: 3px;">
+                                                    <input type="radio" value="0" style="margin: 8px;"> mm</span>
+                                            </div>
+                                        </div>
+                                    </td>
                                     <td>
                                         <div class="control-group">
                                             <label class="control-label">Attachement</label>
@@ -560,6 +607,7 @@
 
                                 </tr>
                                 <tr>
+                                    <td colspan="2" rowspan="2"></td>
                                     <td>
                                         <div class="control-group">
                                             <label class="control-label">Alloy Surface Apperence</label>
@@ -589,59 +637,68 @@
                                     </td>
 
                                 </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <button type="submit" class="btn">
+                                            Save
+                                        </button>
+                                        <button type="submit" class="btn">
+                                            Update
+                                        </button>
+                                        <button type="submit" class="btn">
+                                            Cancel
+                                        </button>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                         </div>
-
                     </div>
             </form>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
-    <div class="row-fluid">
-        <div id="footer" class="span12"> 2012 &copy; Marutii Admin. Brought to you by
-            <a href="http://themedesigner.in/">Themedesigner.in</a>
+        <div class="row-fluid">
+            <div id="footer" class="span12"> 2012 &copy; Marutii Admin. Brought to you by
+                <a href="http://themedesigner.in/">Themedesigner.in</a>
+            </div>
         </div>
-    </div>
-    <script src="js/excanvas.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.ui.custom.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.flot.min.js"></script>
-    <script src="js/jquery.flot.resize.min.js"></script>
-    <script src="js/jquery.peity.min.js"></script>
-    <script src="js/fullcalendar.min.js"></script>
-    <script src="js/maruti.js"></script>
-    <script src="js/maruti.dashboard.js"></script>
-    <script src="js/maruti.chat.js"></script>
+        <script src="js/excanvas.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.ui.custom.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flot.min.js"></script>
+        <script src="js/jquery.flot.resize.min.js"></script>
+        <script src="js/jquery.peity.min.js"></script>
+        <script src="js/fullcalendar.min.js"></script>
+        <script src="js/maruti.js"></script>
+        <script src="js/maruti.dashboard.js"></script>
+        <script src="js/maruti.chat.js"></script>
 
 
-    <script type="text/javascript">
-        // This function is called from the pop-up menus to transfer to
-        // a different page. Ignore if the value returned is a null string:
-        function goPage(newURL) {
+        <script type="text/javascript">
+            // This function is called from the pop-up menus to transfer to
+            // a different page. Ignore if the value returned is a null string:
+            function goPage(newURL) {
 
-            // if url is empty, skip the menu dividers and reset the menu selection to default
-            if (newURL != "") {
+                // if url is empty, skip the menu dividers and reset the menu selection to default
+                if (newURL != "") {
 
-                // if url is "-", it is this page -- reset the menu:
-                if (newURL == "-") {
-                    resetMenu();
-                }
-                // else, send page to designated URL            
-                else {
-                    document.location.href = newURL;
+                    // if url is "-", it is this page -- reset the menu:
+                    if (newURL == "-") {
+                        resetMenu();
+                    }
+                    // else, send page to designated URL            
+                    else {
+                        document.location.href = newURL;
+                    }
                 }
             }
-        }
 
-        // resets the menu selection upon entry to this page:
-        function resetMenu() {
-            document.gomenu.selector.selectedIndex = 2;
-        }
-    </script>
+            // resets the menu selection upon entry to this page:
+            function resetMenu() {
+                document.gomenu.selector.selectedIndex = 2;
+            }
+        </script>
 </body>
 
 <!-- Mirrored from wrappixel.com/demos/free-admin-templates/maruti-admin/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Feb 2018 05:10:56 GMT -->
