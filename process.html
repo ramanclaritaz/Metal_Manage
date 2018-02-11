@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <!--Header-part-->
     <div id="header">
         <div id="header">
@@ -148,7 +147,6 @@
             </li>
         </ul>
     </div>
-
     <div id="content">
         <div id="content-header">
             <!-- <div id="breadcrumb">
@@ -160,23 +158,77 @@
             <form class="form-horizontal" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
                 <div class="span12">
                     <div class="row-fluid">
-                        <h4 align="center">Customer Detail Entry List</h4>
+                        <table class="table table-bordered table-striped" style="margin: 4px 0px 0px 79px;">
+                            <tr>
+                                <td>
+                                    <div class="control-group">
+                                        <label class="control-label">Shift</label>
+                                        <div class="controls">
+                                            <span style="width: 180px;padding: 3px;">
+                                                <input type="radio" value="0" checked="checked" style="margin: 8px;"> A</span>
+
+                                            <span style="width: 180px;padding: 3px;">
+                                                <input type="radio" value="0" style="margin: 8px;"> B</span>
+                                            <span style="width: 180px;padding: 3px;">
+                                                <input type="radio" value="0" style="margin: 8px;"> C</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="control-group">
+                                        <label class="control-label">Date</label>
+                                        <div class="controls">
+                                            <input type="date" name="date" id="date">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="control-group">
+                                        <div class="control-label">
+                                            <span style="width: 180px;padding: 3px;">
+                                                <input type="radio" value="0" checked="checked" style="margin: 6px;">sinter</span>
+
+                                            <span style="width: 180px;padding: 3px;">
+                                                <input type="radio" value="0" style="margin: 6px;"> re-sinter</span>
+                                        </div>
+                                        <div class="controls">
+
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="control-group">
+                                        <div class="control-label">Line
+                                            <span style="width: 180px;padding: 3px;">
+                                                <input type="radio" value="0" checked="checked" style="margin: 4px;"> 1</sp an>
+
+                                                <span style="width: 180px;padding: 3px;">
+                                                    <input type="radio" value="0" style="margin: 4px;"> 2</span>
+                                                <span style="width: 180px;padding: 3px;">
+                                                    <input type="radio" value="0" style="margin: 4px;"> 3</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+
                         <table class="table table-bordered table-striped" style="margin: 4px 0px 0px 79px;">
                             <tbody>
                                 <tr>
                                     <td>
                                         <div class="control-group">
-                                            <label class="control-label">Name</label>
+                                            <label class="control-label">Customer</label>
                                             <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
+                                                <input type="text" name="Customer" placeholder="Customer" id="Customer">
                                             </div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="control-group">
-                                            <label class="control-label">Address</label>
+                                            <label class="control-label">Ok Footage</label>
                                             <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
+                                                <input type="date" name="processedOn" id="processedOn">
                                             </div>
                                         </div>
                                     </td>
@@ -184,74 +236,38 @@
                                 <tr>
                                     <td>
                                         <div class="control-group">
-                                            <label class="control-label">Special Requirement</label>
+                                            <label class="control-label">F.S No.</label>
                                             <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">City</label>
-                                            <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">State</label>
-                                            <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">Phone No</label>
-                                            <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">Mobile</label>
-                                            <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">Pager</label>
-                                            <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="control-group">
-                                            <label class="control-label">Fax</label>
-                                            <div class="controls">
-                                                <input type="text" name="stripNumber" id="stripNumber">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td colspan="2">
-                                        <div class="control-group">
-                                            <div class="controls">
-                                                <span style="width: 180px;padding: 3px;">
-                                                    <input type="checkbox" value="0" checked="checked" style="margin: 8px;"> Extra info</span>
+                                                <input type="text" name="fsNo" placeholder="F.S. No." id="fsNo">
 
-                                                <span style="width: 180px;padding: 3px;">
-                                                    <input type="checkbox" value="0" style="margin: 8px;">Remark</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="control-group">
+                                            <label class="control-label">Coil No.</label>
+                                            <div class="controls">
+                                                <input type="text" name="coilNo" placeholder="Coil No" id="coilNo">
+
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="control-group">
+                                            <label class="control-label">Strip spec</label>
+                                            <div class="controls">
+                                                <input type="text" name="stripSpecn" placeholder="Strip spec" id="stripSpecn">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="control-group">
+                                            <label class="control-label">Roll Down %</label>
+                                            <div class="controls">
+                                                <input type="text" name="rollDown" id="rollDown">
                                             </div>
                                         </div>
                                     </td>
@@ -262,9 +278,9 @@
                         <table class="table table-bordered table-striped" style="margin: 4px 0px 0px 79px;">
                             <tr>
                                 <td style="text-align: center">
-                                    <button type="submit" class="btn">Save</button>
                                     <button type="submit" class="btn">Update</button>
-                                    <button type="submit" class="btn">Cancel</button>
+                                    <button type="submit" class="btn">Print</button>
+                                    <button type="submit" class="btn">Refresh</button>
                         </table>
                     </div>
                 </div>

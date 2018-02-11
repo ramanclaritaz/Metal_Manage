@@ -4,7 +4,7 @@
 <!-- Mirrored from wrappixel.com/demos/free-admin-templates/maruti-admin/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Feb 2018 05:10:40 GMT -->
 
 <head>
-    <title>Maruti Admin</title>
+    <title>BIMETAL</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -15,13 +15,15 @@
 </head>
 
 <body>
-
     <!--Header-part-->
     <div id="header">
-        <h2>RAW MATERIAL </h2>
-        <h1>
-            <a href="dashboard.html">Sample project name</a>
-        </h1>
+        <div id="header">
+            <h2 style="
+                    color: white;
+                    padding: 10px;
+                ">BIMETAL BEARING LTD</h2>
+
+        </div>
     </div>
     <!--close-Header-part-->
 
@@ -100,100 +102,63 @@
         <a href="#" class="visible-phone">
             <i class="icon icon-home"></i> Dashboard</a>
         <ul>
-            <li class="active">
-                <a href="index-2.html">
-                    <i class="icon icon-home"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
-            <li>
-                <a href="charts.html">
-                    <i class="icon icon-signal"></i>
-                    <span>Charts &amp; graphs</span>
-                </a>
-            </li>
-            <li>
-                <a href="widgets.html">
-                    <i class="icon icon-inbox"></i>
-                    <span>Widgets</span>
-                </a>
-            </li>
-            <li>
-                <a href="tables.html">
-                    <i class="icon icon-th"></i>
-                    <span>Tables</span>
-                </a>
-            </li>
-            <li>
-                <a href="grid.html">
-                    <i class="icon icon-fullscreen"></i>
-                    <span>Full width</span>
-                </a>
-            </li>
+
             <li class="submenu">
                 <a href="#">
+
+                    <span>Master</span>
+                    <i class="icon icon-arrow-down"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="powerTc.html">Power tc</a>
+                    </li>
+                    <li>
+                        <a href="powerType.html">Power type parameter set</a>
+                    </li>
+                    <li>
+                        <a href="remarksMaster.html">Remark master</a>
+                    </li>
+                    <li>
+                        <a href="stripMaster.html">Strip master</a>
+                    </li>
+                    <li>
+                        <a href="stripMaster.html">User Management</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="customerDetails.html">
                     <i class="icon icon-th-list"></i>
-                    <span>Forms</span>
-                    <span class="label label-important">3</span>
-                </a>
-                <ul>
-                    <li>
-                        <a href="form-common.html">Basic Form</a>
-                    </li>
-                    <li>
-                        <a href="form-validation.html">Form with Validation</a>
-                    </li>
-                    <li>
-                        <a href="form-wizard.html">Form with Wizard</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="buttons.html">
-                    <i class="icon icon-tint"></i>
-                    <span>Buttons &amp; icons</span>
+                    <span>Customer details</span>
                 </a>
             </li>
             <li>
-                <a href="interface.html">
-                    <i class="icon icon-pencil"></i>
-                    <span>Eelements</span>
+                <a href="processData.html">
+                    <i class="icon icon-th-list"></i>
+                    <span>Process data</span>
                 </a>
             </li>
-            <li class="submenu">
-                <a href="#">
-                    <i class="icon icon-file"></i>
-                    <span>Addons</span>
-                    <span class="label label-important">4</span>
+            <li>
+                <a href="process.html">
+                    <i class="icon icon-th-list"></i>
+                    <span>Process</span>
                 </a>
-                <ul>
-                    <li>
-                        <a href="index2.html">Dashboard2</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="calendar.html">Calendar</a>
-                    </li>
-                    <li>
-                        <a href="chat.html">Chat option</a>
-                    </li>
-                </ul>
             </li>
         </ul>
     </div>
     <div id="content">
         <div id="content-header">
-            <div id="breadcrumb">
+            <!-- <div id="breadcrumb">
                 <a href="index-2.html" title="Go to Home" class="tip-bottom">
                     <i class="icon-home"></i> Home</a>
-            </div>
+            </div> -->
         </div>
         <div class="container-fluid">
             <form class="form-horizontal" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
                 <div class="span12">
                     <div class="row-fluid">
+                            <h4 align="center">Process data</h4>
                         <table class="table table-bordered table-striped" style="margin: 4px 0px 0px 79px;">
                             <tbody>
                                 <tr>
@@ -637,20 +602,15 @@
                                     </td>
 
                                 </tr>
-                                <tr>
-                                    <td colspan="3">
-                                        <button type="submit" class="btn">
-                                            Save
-                                        </button>
-                                        <button type="submit" class="btn">
-                                            Update
-                                        </button>
-                                        <button type="submit" class="btn">
-                                            Cancel
-                                        </button>
-                                    </td>
-                                </tr>
+
                             </tbody>
+                        </table>
+                        <table class="table table-bordered table-striped" style="margin: 4px 0px 0px 79px;">
+                            <tr>
+                                <td style="text-align: center">
+                                    <button type="submit" class="btn">Save</button>
+                                    <button type="submit" class="btn">Update</button>
+                                    <button type="submit" class="btn">Cancel</button>
                         </table>
                         </div>
                     </div>
@@ -658,8 +618,8 @@
             </div>
         </div>
         <div class="row-fluid">
-            <div id="footer" class="span12"> 2012 &copy; Marutii Admin. Brought to you by
-                <a href="http://themedesigner.in/">Themedesigner.in</a>
+            <div id="footer" class="span12"> 2018 &copy; Developer solution
+                <a href="#">developer Solution</a>
             </div>
         </div>
         <script src="js/excanvas.min.js"></script>
